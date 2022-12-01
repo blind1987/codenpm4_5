@@ -1,0 +1,33 @@
+[{
+  "_id": {
+    "$oid": "6386d52398840a054047ffe8"
+  },
+  "nombre": "asus rtx 3090 ti",
+  "modelo": "3090 ti super strix",
+  "marca": "asus",
+  "descripcion": "tarjeta grafica asus",
+  "fecha_lanzamiento": "2022-05-23",
+  "imagen": "https://www.notebookcheck.org/fileadmin/_processed_/5/e/csm_ASUS_Dual_GeForce_RTX_3060_Ti_video_card_83b39e1559.jpg"
+},{
+  "_id": {
+    "$oid": "6386e5cbbc68c28dcfa4cad4"
+  },
+  "nombre": "tarjeta madre biostar ",
+  "modelo": "467",
+  "marca": "biostar",
+  "descripcion": "placa madre para una compu aca toda mamastrofica",
+  "fecha_lanzamiento": "2022-11-15",
+  "imagen": "https://thewizzcomputers.com/wp-content/uploads/2021/01/739.png",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "638764afae1379faa6d68cea"
+  },
+  "nombre": "ejermplo 1",
+  "modelo": "galeana",
+  "marca": "juan dos",
+  "descripcion": "nombre",
+  "fecha_lanzamiento": "2022-11-25",
+  "imagen": "https://1.bp.blogspot.com/-v_3Y46bYgMw/TWW-RAAeZ6I/AAAAAAAAADs/qpNkGrHNVh4/s640/serie+un+cuadrado+-+1.jpg\"",
+  "__v": 0
+}]

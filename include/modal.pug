@@ -1,0 +1,35 @@
+#modalContacto.modal.fade(tabindex="-1" aria-labelledby="modalContacto" aria-hidden="true")
+  .modal-dialog
+    .modal-content
+      .modal-header.bg-dark.bg-gradient.text-white
+        h5(class="modal-title" id="exampleModalLabel") Editar producto
+        button(type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close")
+      .modal-body.bg-secondary.bg-gradient.text-light
+        form(action="/update" method="POST")
+          input(name="edit_id" id="edit_id" type="text" hidden)
+          .mb-3
+            label(for="nombre" class="form-label") Nombre
+            input(type="text" class="form-control" id="edit_nombre" name="nombre" aria-describedby="nombreHelp")
+            #nombreHelp.form-text.text-warning Ingresa el nuevo nombre...
+          .mb-3
+            label(for="modelo" class="form-label") Modelo
+            input(type="text" class="form-control" id="edit_modelo" name="modelo" aria-describedby="modeloHelp")
+            #modeloHelp.form-text.text-warning Ingresa el nuevo modelo...
+          .mb-3
+            label(for="marca" class="form-label") Marca
+            input(type="text" class="form-control" id="edit_marca" name="marca" aria-describedby="marcaHelp")
+            #marcaHelp.form-text.text-warning Ingresa la nueva marca...
+          .mb-3
+            label(for="descripcion" class="form-label") Descripción 
+            input(type="text" class="form-control" id="edit_descripcion" name="descripcion" aria-describedby="descripcionHelp")
+            #descripcionHelp.form-text.text-warning Ingresa la nueva descripcion...
+          .mb-3
+            label(for="fecha_lanzamiento" class="form-label") Fecha de lanzamiento
+            input(type="date" class="form-control" id="edit_fecha_lanzamiento" name="fecha_lanzamiento" aria-describedby="fechaLanzamientoHelp")
+            #fechaLanzamientoHelp.form-text.text-warning Ingresa la nueva fecha...
+          .mb-3
+            label(for="imagen" class="form-label") Imagen
+            input(type="text" class="form-control" id="edit_imagen" name="imagen" aria-describedby="ImagenHelp")
+            #ImagenHelp.form-text.text-warning Ingresa la nueva marca...
+          .d-grid
+            button(type="submit" class="btn btn-primary") Actualizar
